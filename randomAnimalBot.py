@@ -78,7 +78,7 @@ def start(update, context):
 	sendMovements(update.message.chat_id, context)
 	writeUserData(update.message.from_user.id, update.message.from_user.username,
                   update.message.from_user.first_name, update.message.from_user.last_name)
-
+#Writes down the user data on a json
 def writeUserData(userId, userName, firstName, lastName):	
 	userData = {'userId': userId, 'userName': userName, 'firstName': firstName, 'lastName': lastName}
 	exists = False
@@ -144,7 +144,7 @@ def search(update, context):
 	if(not exists):
 		context.bot.send_message(update.message.chat_id, texts[6])
 
-
+#Method to download images from a url
 def downloadimages(myUrl):
     local_file = open('local_file.jpg','wb')
     image_url = myUrl
@@ -154,9 +154,11 @@ def downloadimages(myUrl):
     
     local_file.close()
 
+#Uses the search method again with the same animal
 def more(update, context):
 	search(update, context)
 	
+#Sends last image to another user (has to use the bot at least once)
 def shareImage(update, context):
 	exists = False
 	with open("users.json") as file:
@@ -172,6 +174,7 @@ def shareImage(update, context):
 	if(not exists):
 		context.bot.send_message(update.message.chat_id, texts[7])
 
+#Shows which animals are available
 def available(update, context):
 	global lang
 	aviableAnimals = ""
@@ -183,7 +186,7 @@ def available(update, context):
 		translated = translator.translate(x["name"], src='en', dest=lang)
 		aviableAnimals += translated.text+"\n"
 	context.bot.send_message(update.message.chat_id, aviableAnimals)
-
+#Main method
 def main():
 	TOKEN="5357388010:AAGVRs_kyKa2wBjvsR4HqG-azdKzHCXC3wA"
 	updater=Updater(TOKEN, use_context=True)
