@@ -1,0 +1,58 @@
+{
+    "animals":[
+        {
+            "name" : "cat",
+            "photos":[
+                {"id": 1, "photo" : "https://th.bing.com/th/id/OIP.yDY4qn7Y8p_r-C6GCOmQYgHaE8?pid=ImgDet&rs=1"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/OIP.E1MdBNB4jPlk5ihrk0EvugHaLH?pid=ImgDet&rs=1"},
+                {"id": 3, "photo" : "https://th.bing.com/th/id/OIP.ZgXY8_uLavLGgQVmyC4W3AHaE6?pid=ImgDet&rs=1"}
+            ]
+           
+        },        
+        {
+            "name" : "capybara",
+            "photos":[
+                {"id": 1, "photo" : "https://i2.wp.com/animalplex.com/wp-content/uploads/2016/03/Capybara.jpg?fit=1023%2C682&ssl=1"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/R.4327188bed6987e72ad8e2a1444291c4?rik=XexqxgF1STh61A&pid=ImgRaw&r=0"},
+                {"id": 3, "photo" : "https://th.bing.com/th/id/R.e5298621331a1b1b1c761d5947f23e51?rik=aVh3MlFM2Q%2fQqQ&pid=ImgRaw&r=0"}
+            ]
+        },
+        
+        {
+            "name" : "dog",
+            "photos":[
+                {"id": 1, "photo" : "https://th.bing.com/th/id/OIP.ezt0HQ7AVq60N2bro-_wCQHaFj?pid=ImgDet&rs=1"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/R.872e4a53d5ee368ca0a909526c46d083?rik=ogsmTL08zlgLAA&pid=ImgRaw&r=0"},
+                {"id": 3, "photo" : "https://th.bing.com/th/id/R.9b853494521f8bf2a08507dcaaefa59f?rik=u1EVq7mfWEjUQQ&pid=ImgRaw&r=0"}
+            ]
+        },
+        
+        {
+            "name" : "python",
+            "photos":[
+                {"id": 1, "photo" : "https://th.bing.com/th/id/OIP.F1-d2FG_GBi4WpZvYyaUOAHaFq?pid=ImgDet&rs=1"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/OIP.p1RhvzxJSFfEpk9cikm9AwHaEe?pid=ImgDet&rs=1"},
+                {"id": 3, "photo" : "https://th.bing.com/th/id/OIP.ilDgdt2jAh7C8uGLPn9ovQHaE7?pid=ImgDet&rs=1"}
+            ]
+        },
+        
+        {
+            "name" : "tiger",
+            "photos":[
+                {"id": 1, "photo" : "https://th.bing.com/th/id/R.7e052c745745d8140ad888c35514ef5d?rik=KZBMc5kPyx32TQ&pid=ImgRaw&r=0"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/OIP.eLHIdb8mEAmbCyQy8SZCCwHaJ4?pid=ImgDet&rs=1"},
+                {"id": 3, "photo" : "https://th.bing.com/th/id/OIP._gL30wr5cL5scYJ_aAGHjwHaEo?pid=ImgDet&rs=1"},
+                {"id": 4, "photo" : "https://external-preview.redd.it/C73VSiHc_VMC6jgtyHpHNWdpeF6JXq9-laYNScVdK48.png?auto=webp&s=403496b5122f29a9610d89c2dbfaa14f1f3075d8"}
+            ]
+        },
+        {
+            "name" : "sheep",
+            "photos":[
+                {"id": 1, "photo" : "https://th.bing.com/th/id/R.344bda0c92dd2f81de18036bd12ca5a3?rik=6tqTHmPfGNPbVA&pid=ImgRaw&r=0"},
+                {"id": 2, "photo" : "https://th.bing.com/th/id/R.606981c4b8de3dd6f755cddea2bf1148?rik=Jg0VHEuzhNsIBA&pid=ImgRaw&r=0"},
+                {"id": 3, "photo" : "https://tse2.mm.bing.net/th/id/OIP.iblbNM_CEBezrB5objEHEwHaHq?pid=ImgDet&rs=1"}
+            ]
+        }
+    ]
+}
+
