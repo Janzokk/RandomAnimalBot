@@ -25,7 +25,7 @@ Button4 = KeyboardButton(
 )
 
 lang = 'ca'
-texts = ["Bon dia", 'Selecciona idioma', "Escriu /search + l'animal que vulguis buscar per veure fotos d'aquest animal\nL'animal que vols no funciona? Potser encara no el tenim a la plantilla, Revisa amb /available tots els animals disponibles", 
+texts = ["Hola", 'Selecciona idioma', "Escriu /search + l'animal que vulguis buscar per veure fotos d'aquest animal\nL'animal que vols no funciona? Potser encara no el tenim a la plantilla, Revisa amb /available tots els animals disponibles", 
 "Aquí tens una foto de: ", "Vols més fotos d'aquest animal? --> /more", "Si vols compartir l'imatge --> /share + el nom d'usuari", "No existeix o de moment no el tenim incorporat", "L'usuari no existeix o no a usat el bot"]
 currAnimal = ""
 
@@ -166,8 +166,6 @@ def shareImage(update, context):
 	data = json_load['users']
 	for x in data:
 		if (x['userName'] == context.args[0]):
-			chat_id = x['userId']
-			context.bot.send_message(update.message.chat_id, "Check this photo")
 			context.bot.send_photo(chat_id=x['userId'], photo=open("local_file.jpg", "rb"))
 			exists = True
 
